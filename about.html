@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Dark Text Animation</title>
+  <link rel="stylesheet" href="about.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="navBar">
+  <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="artf2223.html">PROJECT</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="submit.html">SUBMIT</a></li>
+  </ul>
+</div>
+  
+<div id="container">
+  <div id="title">i&ensp;am</div>
+    <span id="text1"></span>
+    <span id="text2"></span>
+</div>
+<div class="container2">
+<div id="main"> 
+    about
+</div>
+
+<div id="text"> 
+    The "i am" Project is a data visualization project that encourages people to think 
+    about how they are perceived by others, how they perceive themselves, and challenge 
+    how they assume characteristics or qualities about others. <br><br>On the "project" page
+    you can view a collection of self submitted responses that reflect an individual's
+self perception and the assumptions they have heard about themselves. <br><br>We are all multifaceted 
+and have many qualities beneath the surface that make who "i am". Feel free to submit 
+your own response throught the "submit" page that may be added to the website at a later date.
+</div>
+</div>
+<svg id="filters">
+    <defs>
+        <filter id="threshold">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140" />
+        </filter>
+    </defs>
+</svg>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

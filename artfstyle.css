@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'FuturaModified';
+    src: url(Blonde.otf);
+}
+body {
+    margin: 0;
+    background-color: #222;
+    font-family: 'FuturaModified', sans-serif;
+  }
+  
+  * ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    height: 100vh;
+   
+    position: absolute;
+    top: -50px;
+    
+  }
+  
+  .scroll {
+    white-space: nowrap;
+    margin: 0 2em;
+  }
+  
+  .scroll div {
+    display: flex;
+    gap: 2em;
+  }
+  
+  .scroll p {
+    font-size: 5em;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 10px;
+  }
+  
+  .RightToLeft {
+    animation: RightToLeft 60s infinite linear;
+    padding: 15px;
+    opacity: .8;
+  }
+  
+  @keyframes  RightToLeft {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .LeftToRight {
+    animation: LeftToRight 60s infinite linear;
+    padding: 15px;
+    opacity: .8;
+  }
+  
+  @keyframes  LeftToRight {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  .button1 {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .button2 {
+    position: absolute;
+    top: 250px;
+    left: 750px;
+    width: 500px;
+height: 500px;
+  }
+
+  .button3 {
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    width: 250px;
+    height: 250px;
+    background: #527FF8;
+  }
+
+  .button4 {
+    position: absolute;
+    top: 900px;
+    left: 750px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .button5 {
+    position: absolute;
+    top: 800px;
+    left: 90px;
+    width: 150px;
+    height: 150px;
+    background: #F88E52;
+  }
+
+  .button6 {
+    position: absolute;
+    top: 1000px;
+    left: 400px;
+    width: 150px;
+    height: 150px;
+    background: #DD6565;
+  }
+
+  .button7 {
+    position: absolute;
+    top: 1100px;
+    right: 250px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .button8 {
+    position: absolute;
+    top: 1300px;
+    left: 150px;
+    width: 250px;
+    height: 250px;
+    background: #F5B752;
+  }
+
+  .button9 {
+    position: absolute;
+    top: 1600px;
+    right: 350px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .button10 {
+    position: absolute;
+    top: 1700px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+    background: #B587E2;
+  }
+
+  .button11 {
+    position: absolute;
+    top: 1800px;
+    left: 350px;
+    width: 400px;
+    height: 400px;
+    background: #93F275;
+  }
+
+  .button12 {
+    position: absolute;
+    top: 1800px;
+    right: 50px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .button13 {
+    position: absolute;
+    top: 2300px;
+    right: 550px;
+    width: 350px;
+    height: 250px;
+  }
+  
+  
+  .mobile1 {
+    display: none;
+  }
+
+
+
+  

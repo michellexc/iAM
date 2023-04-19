@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: 'FuturaModified';
+    src: url(Blonde.otf);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+body {
+    margin: 0px;
+}
+
+#title {
+    position: absolute;
+    width: 100%;
+    top: -60px;
+    display: inline-block;
+
+    font-family: 'FuturaModified', sans-serif;
+    font-size: 40pt;
+
+    text-align: center;
+
+    user-select: none;
+}
+
+#container {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+
+    filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    display: inline-block;
+
+    font-family: 'FuturaModified', sans-serif;
+    font-size: 60pt;
+
+    text-align: center;
+
+    user-select: none;
+}
+
+ul {
+    list-style-type: none; 
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+   }
+   
+   li {
+     float: left;
+   }
+   
+   li a {
+     display: block;
+     font-family: "Raleway", sans-serif;
+     color: black;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+   
+   li a:hover {
+     background-color: #111;
+     color: white;
+   }
