@@ -14,6 +14,7 @@ const texts = [
     "outgoing",
     "blunt",
     "smart",
+    "quiet",
     "chaotic",
     "awkward",
     "friendly",
